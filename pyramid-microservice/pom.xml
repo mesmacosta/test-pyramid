@@ -98,6 +98,12 @@
 			<artifactId>commons-lang3</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.tngtech.archunit</groupId>
+			<artifactId>archunit-junit4</artifactId>
+			<version>0.9.1</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -125,7 +131,7 @@
 				<version>2.0.0.RC2</version>
 				<extensions>true</extensions>
 				<configuration>
-					<baseClassForTests>com.github.ricardocomar.testpyramid.microservice.contract.ContractBaseTest</baseClassForTests>
+					<baseClassForTests>com.github.ricardocomar.testpyramid.microservice.book.contract.ContractBaseTest</baseClassForTests>
 				</configuration>
 			</plugin> -->
 
