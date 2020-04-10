@@ -1,5 +1,5 @@
 # test-pyramid
-Simple project to apply Test Pyramid methodology together with Clean Architecture
+Simple project to apply Test Pyramid methodology together with Clean Architecture. This *Fork* adds Clean Architecture automated tests with ArchUnit.
 ![Test Pyramid](img/all-layers.png)
 There are some code samples showing how to test on each layer of the pyramid, from bottom to top, and how each layer exercises a real component or use an emulated one:
 
